@@ -10,7 +10,7 @@ function App() {
       {Array.from(Array(1), (e, i) => {
         return <>
           <Header month={month} day={i+1} year={year} />
-          <Table />
+          <Table month={month} day={i+1} />
         </>
       })}
     </div>

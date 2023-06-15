@@ -10,7 +10,6 @@ const Thead = () => {
                 <th>LG</th>
                 <th>DƏ</th>
                 <th>Daban</th>
-                <th>Baqaj</th>
                 <th>Kovrik-kant</th>
                 <th>Ümumi <br /> dəyəri</th>
                 <th>Beh tarixi</th>

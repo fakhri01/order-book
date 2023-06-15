@@ -1,7 +1,7 @@
 import Thead from '../Thead';
 import './table.css'
 
-const Table = () => {
+const Table = ({ month, day }) => {
     return (
         <table>
             <Thead />
@@ -9,7 +9,7 @@ const Table = () => {
                 {Array.from(Array(40), (e, i) => {
                     return (
                         <tr key={i}>
-                            <td>{i+1}</td>
+                            <td>{i + 1}</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -20,8 +20,7 @@ const Table = () => {
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>{day} {month}</td>
                             <td></td>
                             <td></td>
                             <td></td>
