@@ -3,7 +3,7 @@ const Thead = () => {
         <thead>
             <tr>
                 <th>SS</th>
-                <th>Müştərinin adı və <br /> telefonu</th>
+                <th>Müştərinin  telefonu</th>
                 <th>Marka</th>
                 <th>Model</th>
                 <th>İl</th>
